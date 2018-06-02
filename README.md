@@ -1,0 +1,1 @@
+# goodfortune-resolver
