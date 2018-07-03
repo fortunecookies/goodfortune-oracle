@@ -1,0 +1,24 @@
+{
+  "name": "goodfortune-oracle",
+  "version": "1.0.0",
+  "description": "Ethereum smart contract for verifying the GoodFortune of an address.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle deploy --network=\"kovan\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcsiwula/goodfortune-oracle.git"
+  },
+  "author": "Tim Siwula <tcsiwula@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcsiwula/goodfortune-oracle/issues"
+  },
+  "homepage": "https://github.com/tcsiwula/goodfortune-oracle#readme",
+  "dependencies": {
+    "truffle": "^4.1.13",
+    "truffle-hdwallet-provider": "0.0.5"
+  }
+}
