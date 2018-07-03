@@ -4,9 +4,9 @@
   "description": "Ethereum smart contract for verifying the GoodFortune of an address.",
   "main": "index.js",
   "scripts": {
-    "compile": "cd contracts && truffle compile",
-    "deploy-infura-rinkeby": "cd contracts && truffle deploy --network=\"infuraRinkeby\"",
-    "deploy-parity-kovan": "cd contracts && truffle deploy --network=\"kovan\""
+    "compile": "truffle compile",
+    "deploy-infura-rinkeby": "truffle deploy --network=\"infuraRinkeby\"",
+    "deploy-parity-kovan": "truffle deploy --network=\"kovan\""
   },
   "repository": {
     "type": "git",
