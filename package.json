@@ -4,14 +4,15 @@
   "description": "Ethereum smart contract for verifying the GoodFortune of an address.",
   "main": "index.js",
   "scripts": {
-    "compile": "truffle compile",
-    "deploy": "truffle deploy --network=\"kovan\""
+    "compile": "cd contracts && truffle compile",
+    "deploy-infura-rinkeby": "cd contracts && truffle deploy --network=\"infuraRinkeby\"",
+    "deploy-parity-kovan": "cd contracts && truffle deploy --network=\"kovan\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tcsiwula/goodfortune-oracle.git"
   },
-  "author": "Tim Siwula <tcsiwula@gmail.com>",
+  "author": ["Tim Siwula (@tcsiwula)"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tcsiwula/goodfortune-oracle/issues"
